@@ -23,3 +23,6 @@
 ## Derleme
 APK her push'ta GitHub Actions ile otomatik derlenir (`.github/workflows/android.yml`).
 Yerelde: Android Studio ile açıp çalıştırın veya `./gradlew assembleRelease`.
+
+---
+Ozan KARTOL tarafından yapılmıştır.

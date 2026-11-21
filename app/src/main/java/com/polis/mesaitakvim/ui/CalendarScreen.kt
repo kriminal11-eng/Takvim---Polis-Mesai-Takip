@@ -226,7 +226,9 @@ fun CalendarScreen(state: AppState, onOpenSettings: () -> Unit) {
                 editing = item
                 showEditor = true
             })
-            Spacer(Modifier.height(96.dp))
+            Spacer(Modifier.height(12.dp))
+            CreditText()
+            Spacer(Modifier.height(88.dp))
         }
     }
 
@@ -568,4 +570,16 @@ private fun UpcomingCard(state: AppState, onOpen: (AgendaItem) -> Unit) {
             }
         }
     }
+}
+
+/** Yapımcı bilgisi */
+@Composable
+fun CreditText() {
+    Text(
+        "Ozan KARTOL tarafından yapılmıştır",
+        style = MaterialTheme.typography.labelSmall,
+        color = MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.7f),
+        textAlign = TextAlign.Center,
+        modifier = Modifier.fillMaxWidth()
+    )
 }

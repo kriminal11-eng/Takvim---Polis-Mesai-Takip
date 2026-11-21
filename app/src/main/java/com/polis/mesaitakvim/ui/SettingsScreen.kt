@@ -216,6 +216,7 @@ fun SettingsScreen(state: AppState, onBack: () -> Unit) {
                     }) { Text("Test bildirimi") }
                 }
             }
+            CreditText()
             Spacer(Modifier.height(24.dp))
         }
     }
