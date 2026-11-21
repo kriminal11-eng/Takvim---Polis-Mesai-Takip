@@ -10,7 +10,7 @@
 - **Ajanda:** Her güne not, görev, hatırlatma ekleme. Türlerin renkleri:
   Not (mor), Hatırlatma (kırmızı), Görev (yeşil), Önemli (turuncu), Kişisel (turkuaz).
 - **Bildirimler:** Kayıtlar için zamanında / 10 dk / 30 dk / 1 saat / 2 saat / 1 gün önce uyarı.
-  Ayrıca her mesaiden önce (varsayılan 1 saat) otomatik uyarı. Telefon yeniden başlasa da alarmlar korunur.
+  Telefon yeniden başlasa da alarmlar korunur. (İsteğe bağlı mesai uyarısı Ayarlar'dan açılabilir; varsayılan kapalı.)
 - **Elle değişiklik:** Bir günü izin, rapor ya da farklı vardiya olarak işaretleme.
 - **Aylık özet:** Gündüz/gece sayısı ve toplam çalışma saati.
 

@@ -42,7 +42,7 @@ data class AppSettings(
     val dayEnd: LocalTime = LocalTime.of(18, 0),
     val nightStart: LocalTime = LocalTime.of(18, 0),
     val nightEnd: LocalTime = LocalTime.of(8, 0),
-    val shiftReminderEnabled: Boolean = true,
+    val shiftReminderEnabled: Boolean = false,
     val shiftReminderMinutes: Int = 60,
     val dayColor: Long = 0xFFFFD54F,   // sarı
     val nightColor: Long = 0xFF64B5F6  // mavi

@@ -97,7 +97,7 @@ object Storage {
             dayEnd = time("day_end", d.dayEnd),
             nightStart = time("night_start", d.nightStart),
             nightEnd = time("night_end", d.nightEnd),
-            shiftReminderEnabled = p.getBoolean("shift_rem", d.shiftReminderEnabled),
+            shiftReminderEnabled = p.getBoolean("shift_rem_v2", d.shiftReminderEnabled),
             shiftReminderMinutes = p.getInt("shift_rem_min", d.shiftReminderMinutes),
             dayColor = p.getLong("day_color", d.dayColor),
             nightColor = p.getLong("night_color", d.nightColor)
@@ -111,7 +111,7 @@ object Storage {
             .putString("day_end", s.dayEnd.toString())
             .putString("night_start", s.nightStart.toString())
             .putString("night_end", s.nightEnd.toString())
-            .putBoolean("shift_rem", s.shiftReminderEnabled)
+            .putBoolean("shift_rem_v2", s.shiftReminderEnabled)
             .putInt("shift_rem_min", s.shiftReminderMinutes)
             .putLong("day_color", s.dayColor)
             .putLong("night_color", s.nightColor)
